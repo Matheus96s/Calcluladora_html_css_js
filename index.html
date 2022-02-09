@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora do Matheus para Principiantes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="woodCalc.css"> -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora do Matheus para Principiantes</h1>
+    <img src="./nintendo-logo-1-1.png" alt="" width="250" height="75">
+    <div class="container">
+        <form name="form">
+            <input class="textview" name="textview" disabled>
+        </form>
+            <table>
+                <tr>
+                        <td><input class="allclearButton" type="button" value="AC" onclick="clean()"></td>
+                        <td><input class="button" type="button" value="←" onclick="back()"></td>
+                        <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+                        <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+                </tr>
+                <tr>
+                        <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                        <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                        <td rowspan=""><input class="equalButton1" type="button" value="Reposta para a vida o universo e tudo mais" onclick=r42()></td>
+                        <td rowspan="5"><input class="equalButton" type="button" value="=" onclick=equals()></td>
+                    </tr>
+            </table>
+    </div>
+</body>
+</html>

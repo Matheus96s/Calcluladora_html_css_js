@@ -1,0 +1,127 @@
+body {
+	/* background: url(http://www.inkspilldesign.com/demo/wood-tile-background.jpg); */
+	/* background-color: #424242; */
+	/* font-family: Tahoma; */
+	background-image: url("zimg.jpg");
+
+	/* background-image: url("Scooter.jpg"); */
+}
+
+.textview{
+  display: inline-block;
+  cursor: not-allowed;
+  font-family: 'Courier New', Courier, monospace;
+	margin: 2px;
+	width: 425px;
+	height: 50px;
+	font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(245, 242, 237, 0.589);
+	/* background:none */
+	/* border-radius: 10px; */
+	border: none;
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	background-color: #3e8e41;
+	color: #FFF;
+	margin: 2px;
+	width: 100px;
+	height:100px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+.equalButton1 {
+    cursor: pointer;
+	display: inline-block;
+	background-color:darkblue;
+	color: #FFF;
+	margin: 2px;
+	width: 100px;
+	height:100px;
+    outline: none;
+	white-space: normal;
+	font-size: 15px;
+	word-wrap: break-word;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	outline: none;
+  
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
+
+.allclearButton {
+  border-radius: 5px;
+	color: #FFF;
+    margin: 2px;
+	width: 100px;
+	height: 100px;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+	border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #800000;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+	outline: none;
+}
+
+h1{
+	color:#FFF;
+	font-size: 50px;
+	font-style: oblique;
+	font-family: 'Courier New', Courier, monospace;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: rgba(146, 142, 142, 0.589);
+		/* background-size: 100px 80px; */
+		background-size: cover;
+		border-radius: 5px;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+
+
+      
